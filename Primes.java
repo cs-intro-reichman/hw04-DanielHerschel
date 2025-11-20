@@ -4,6 +4,7 @@ public class Primes {
         boolean[] isPrime = new boolean[n+1];
         int primeCount = 0;
 
+        System.out.printf("Prime numbers up to %d:%n", n);
         for (int i = 2; i <= n; i++) {
             if (!isPrime[i]) {
                 primeCount++;
